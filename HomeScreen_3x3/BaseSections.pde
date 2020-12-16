@@ -1,4 +1,5 @@
 void rectangles() {
+  fill(blue);
   rect(pt1X, pt1Y, rectWidth, rectHeight);
   rect(pt2X, pt2Y, rectWidth, rectHeight);
   rect(pt3X, pt3Y, rectWidth, rectHeight);
@@ -8,6 +9,7 @@ void rectangles() {
   rect(pt9X, pt9Y, rectWidth, rectHeight);
   rect(pt10X, pt10Y, rectWidth, rectHeight);
   rect(pt11X, pt11Y, rectWidth, rectHeight);
+  fill(white);
 }
 
 void points() {
