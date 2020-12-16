@@ -10,11 +10,6 @@ void rectangles() {
   rect(pt11X, pt11Y, rectWidth, rectHeight);
 }
 
-
-
-
-
-
 void points() {
   ellipse(pt1X, pt1Y, ptDiameter, ptDiameter);
   ellipse(pt2X, pt2Y, ptDiameter, ptDiameter);
