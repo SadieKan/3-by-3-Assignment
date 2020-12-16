@@ -9,6 +9,8 @@ void setup() {
 }
 
 void draw() {
+  rectangles();
+  points();
 }
 
 void mousePressed() {
