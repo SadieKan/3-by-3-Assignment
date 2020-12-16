@@ -1,5 +1,5 @@
 void rectangles() {
-  fill(blue);
+  fill(purple);
   rect(pt1X, pt1Y, rectWidth, rectHeight);
   rect(pt2X, pt2Y, rectWidth, rectHeight);
   rect(pt3X, pt3Y, rectWidth, rectHeight);

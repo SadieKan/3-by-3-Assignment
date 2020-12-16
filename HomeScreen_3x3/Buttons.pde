@@ -4,7 +4,7 @@ void buttons() {
     fill(black);
     rect(button1X, button1Y, button1Width, button1Height);
   } else {
-    fill(darkBlue);
+    fill(darkPurple);
     rect(button1X, button1Y, button1Width, button1Height);
   }
   fill(white);

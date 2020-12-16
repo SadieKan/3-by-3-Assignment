@@ -14,9 +14,15 @@ void variablePopulation() {
   pt9Y = pt10Y = pt11Y = pt12Y = height*2/3;
   pt13Y = pt14Y = pt15Y = pt16Y= height;
   //
-  //Button1 (for box 5)
+  //Button 1 (for box 5)
   button1X = rectWidth; //stars at the left edge of box 5
   button1Y = rectHeight*15/8; // rectHeight*8/8 would start it from the very top of box 5
   button1Width = rectWidth*7/24;
   button1Height = rectHeight*1/8;
+  //pic 1 (for box 5)
+  pic1 = loadImage ("purple_flowers.jpg"); //Dimensions: 474 Width, 474 Height
+  image1X = width*1/3;
+  image1Y = height*1/3;
+  image1Width = rectWidth;
+  image1Height = rectHeight;
 }
