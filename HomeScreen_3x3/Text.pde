@@ -4,7 +4,6 @@ void box5Text() {
   text(box5Text, pt6X, pt6Y, rectWidth, rectHeight);
   textFont(boxFont);
 }
-
 void button1Text() {
   textAlign (CENTER, CENTER);
   textFont(buttonFont, 25);
@@ -13,7 +12,6 @@ void button1Text() {
   fill(white);
   textFont(buttonFont);
 }
-
 void button1Text2() {
   textAlign (CENTER, CENTER);
   textFont(buttonFont, 25);
@@ -22,6 +20,8 @@ void button1Text2() {
   textFont(buttonFont);
 }
 
+
+
 void box6Text() {
   textAlign (CENTER, TOP);
   textFont(boxFont, 30);
@@ -29,4 +29,12 @@ void box6Text() {
   text(box6Text, text6X, text6Y, text6Width, text6Height);
   fill(white);
   textFont(boxFont);
+}
+
+void button2Text() {
+  textAlign (CENTER, CENTER);
+  textFont(buttonFont, 30);
+  text(clickMe, button2X, button2Y, button2Width, button2Height);
+  textFont(buttonFont);
+  fill(white);
 }
