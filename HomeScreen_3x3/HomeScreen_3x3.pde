@@ -6,7 +6,7 @@ float button1X, button1Y, button1Width, button1Height, button2X, button2Y, butto
 float text6X, text6Y, text6Width, text6Height;
 float image1X, image1Y, image2X, image2Y, imageWidth, imageHeight;
 PImage pic1, pic2;
-PFont boxFont;
+PFont boxFont, buttonFont;
 color white = #FFFFFF, black = #000000, purple = #B6B5F2, purple2 = #A083CE, darkPurple = #693EB4;
 Boolean box6On=false;
 
@@ -14,6 +14,7 @@ void setup() {
   fullScreen(); //landscape
   variablePopulation();
   boxFont = createFont ("Cambria", 55);
+  buttonFont = createFont ("Cambria", 25);
 }
 
 void draw() {

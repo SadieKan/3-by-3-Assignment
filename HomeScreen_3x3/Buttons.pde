@@ -3,9 +3,11 @@ void button1() {
   if ( mouseX>=button1X && mouseX<=button1X+button1Width && mouseY>=button1Y && mouseY<=button1Y+button1Height) {
     fill(black);
     rect(button1X, button1Y, button1Width, button1Height);
+    button1Text2();
   } else {
     fill(purple2);
     rect(button1X, button1Y, button1Width, button1Height);
+    button1Text();
   }
   fill(white);
 }

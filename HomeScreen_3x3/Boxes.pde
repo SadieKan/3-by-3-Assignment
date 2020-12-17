@@ -1,5 +1,7 @@
 String box5Text= "Start";
 String box6Text= "“I am so clever that sometimes I don't understand a single word of what I am saying.” -Oscar Wilde";
+String clickMe= "Click Me!";
+String Start= "Start";
 
 void box5() {
   image(pic1, image1X, image1Y, imageWidth, imageHeight);
