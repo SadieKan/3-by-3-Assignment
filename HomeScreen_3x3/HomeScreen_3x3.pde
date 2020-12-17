@@ -8,7 +8,7 @@ float image1X, image1Y, image2X, image2Y, imageWidth, imageHeight;
 PImage pic1, pic2;
 PFont boxFont, buttonFont;
 color white = #FFFFFF, black = #000000, purple = #B6B5F2, purple2 = #A083CE, darkPurple = #693EB4;
-Boolean box6On=false;
+Boolean box6On=false, box1On=false;
 
 void setup() {
   fullScreen(); //landscape
@@ -26,4 +26,5 @@ void draw() {
 
 void mousePressed() {
   if (mouseX>=button1X && mouseX<=button1X+button1Width && mouseY>=button1Y && mouseY<=button1Y+button1Height) box6On = true;
+  if (mouseX>=button2X && mouseX<=button2X+button2Width && mouseY>=button2Y && mouseY<=button2Y+button2Height) box1On = true;
 }
