@@ -8,7 +8,7 @@ void box5() {
 }
 
 void box6() {
-  if (box6On=true) {
+  if (box6On == true) {
     image(pic2, image2X, image2Y, imageWidth, imageHeight);
     line(pt7X, pt7Y, pt8X, pt8Y);
     line(pt7X, pt7Y, pt11X, pt11Y);

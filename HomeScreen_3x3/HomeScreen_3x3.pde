@@ -8,21 +8,21 @@ PImage pic1, pic2;
 PFont boxFont;
 color white = #FFFFFF, black = #000000, purple = #B6B5F2, purple2 = #A083CE;
 Boolean box6On=false;
-
+//
 void setup() {
   fullScreen(); //landscape
   variablePopulation();
   boxFont = createFont ("Cambria", 55);
 }
-
+//
 void draw() {
   rectangles();
+  box6();
   box5();
   button1();
-  box6();
   points();
 }
-
+//
 void mousePressed() {
-  if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY<button1Y+button1Height ) box6On = true;
+  if (mouseX>=button1X && mouseX<=button1X+button1Width && mouseY>=button1Y && mouseY<=button1Y+button1Height) box6On = true;
 }
