@@ -9,3 +9,17 @@ void button1() {
   }
   fill(white);
 }
+
+void button2() {
+  rect(button2X, button2Y, button2Width, button2Height);
+  if ( mouseX>=button2X && mouseX<=button2X+button1Width && mouseY>=button2Y && mouseY<=button2Y+button1Height) {
+    fill(black);
+    rect(button2X, button2Y, button2Width, button2Height);
+  } else {
+    stroke(darkPurple);
+    fill(purple2);
+    rect(button2X, button2Y, button2Width, button2Height);
+    stroke(black);
+  }
+  fill(white);
+}

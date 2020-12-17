@@ -14,11 +14,18 @@ void variablePopulation() {
   pt9Y = pt10Y = pt11Y = pt12Y = height*2/3;
   pt13Y = pt14Y = pt15Y = pt16Y= height;
   //
+  //
   //Button 1 (for box 5)
   button1X = rectWidth; //stars at the left edge of box 5
   button1Y = rectHeight*15/8; // rectHeight*8/8 would start it from the very top of box 5
   button1Width = rectWidth*7/24;
   button1Height = rectHeight*1/8;
+  //Button 2 (for box 6)
+  button2X = rectWidth*14/6; 
+  button2Y = rectHeight*27/16; 
+  button2Width = rectWidth*1/3;
+  button2Height = rectHeight*1/5;
+  //
   //
   //Pics
   imageWidth = rectWidth;
@@ -31,4 +38,10 @@ void variablePopulation() {
   image1Y = height*1/3;
   image2X = width*2/3;
   image2Y = height*1/3;
+  //
+  //Text
+  text6X = width*20/30;
+  text6Y = height*7/18; 
+  text6Width = width*1/3;
+  text6Height = rectHeight;
 }
