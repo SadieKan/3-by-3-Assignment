@@ -19,10 +19,16 @@ void variablePopulation() {
   button1Y = rectHeight*15/8; // rectHeight*8/8 would start it from the very top of box 5
   button1Width = rectWidth*7/24;
   button1Height = rectHeight*1/8;
-  //pic 1 (for box 5)
-  pic1 = loadImage ("purple_flowers.jpg"); //Dimensions: 474 Width, 474 Height
+  //
+  //Pics
+  imageWidth = rectWidth;
+  imageHeight = rectHeight;
+  //
+  pic1 = loadImage ("purple_flowers.jpg"); //Dimensions: 564 Width, 686 Height
+  pic2 = loadImage ("crinkled_silk_chiffon.jpg"); //Dimensions: 564 Width, 564 Height
+  //
   image1X = width*1/3;
   image1Y = height*1/3;
-  image1Width = rectWidth;
-  image1Height = rectHeight;
+  image2X = width*2/3;
+  image2Y = height*1/3;
 }
