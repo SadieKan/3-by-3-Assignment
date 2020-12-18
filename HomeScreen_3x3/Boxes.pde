@@ -64,6 +64,14 @@ void box7() {
   }
 }
 
+void box3() {
+  //if (box3On == true) {
+    image(pic4, image4X, image4Y, imageWidth, imageHeight);
+    line(pt5X, pt5Y, pt6X, pt6Y);
+    button6();
+  //}
+}
+
 void box2() {
   quitButton();
   restartButton();

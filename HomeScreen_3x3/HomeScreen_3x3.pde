@@ -14,7 +14,7 @@ float trunkX1, trunkY1, trunkX2, trunkY2, trunkThick;
 float leaf1X1, leaf1Y1, leaf1X2, leaf1Y2, leaf1X3, leaf1Y3, leaf2X1, leaf2Y1, leaf2X2, leaf2Y2, leaf2X3, leaf2Y3, leaf3X1, leaf3Y1, leaf3X2, leaf3Y2, leaf3X3, leaf3Y3;
 PFont boxFont, buttonFont;
 color white = #FFFFFF, black = #000000, purple = #C0B2CC, darkPurple = #786a87, gray = #ACABAD;
-Boolean box6On=false, box1On=false, box9On=false, box8On=false, box4On=false, box7On=false, blueOn=false, greenOn=false, pinkOn=false;
+Boolean box6On=false, box1On=false, box9On=false, box8On=false, box4On=false, box7On=false, box3On=false, blueOn=false, greenOn=false, pinkOn=false;
 
 void setup() {
   fullScreen(); //landscape
@@ -43,6 +43,7 @@ void mousePressed() {
   if ( mouseX>=button4X && mouseX<=button4X+button4Width && mouseY>=button4Y && mouseY<=button4Y+button4Height) box8On = true;
   if ( mouseX>=button5X && mouseX<=button5X+cButtonWidth && mouseY>=button5Y && mouseY<=button5Y+cButtonHeight) box4On = true;
   if ( mouseX>=button6X && mouseX<=button6X+button6Width && mouseY>=button6Y && mouseY<=button6Y+button6Height) box7On = true;
+  if ( mouseX>=button7X && mouseX<=button7X+button7Width && mouseY>=button7Y && mouseY<=button7Y+button7Height) box3On = true;
   //
   if ( mouseX>=cButton1X && mouseX<=cButton1X+cButtonWidth && mouseY>=cButton1Y && mouseY<=cButton1Y+cButtonHeight) {
     blueOn = true;
@@ -68,6 +69,7 @@ void mousePressed() {
     box8On = false;
     box4On = false;
     box7On = false;
+    box3On =false;
     blueOn = false;
     greenOn = false;
     pinkOn = false;
