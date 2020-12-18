@@ -82,7 +82,7 @@ void button5Text() {
   fill(white);
 }
 
-
+//Box 4
 void button6Text() {
   textAlign (CENTER, CENTER);
   textFont(buttonFont);
@@ -90,10 +90,18 @@ void button6Text() {
   fill(white);
 }
 
+//Box 7
 void button7Text() {
   textAlign (CENTER, CENTER);
   textFont(buttonFont);
   text(clickMe, button7X, button7Y, button7Width, button7Height);
+  fill(white);
+}
+
+void button8Text() {
+  textAlign (CENTER, CENTER);
+  textFont(buttonFont);
+  text(clickMe, button8X, button8Y, button8Width, button8Height);
   fill(white);
 }
 

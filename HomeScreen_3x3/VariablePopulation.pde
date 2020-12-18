@@ -56,6 +56,11 @@ void variablePopulation() {
   button7Y = rectHeight*19/8; 
   button7Width = rectWidth*1/4;
   button7Height = rectHeight*1/5;
+  //Button 8 (for box 3)
+  button8X = rectWidth*31/15; 
+  button8Y = rectHeight*5/8; 
+  button8Width = rectWidth*1/4;
+  button8Height = rectHeight*1/5;
   //Quit Button and Restart Button (for box 2)
   quitButtonX = rectWidth*5/4;
   quitButtonY = rectHeight*1/9;
@@ -77,6 +82,7 @@ void variablePopulation() {
   pic4 = loadImage ("cake.jpg"); //Dimensions: 564 Width, 564 Height
   pic5 = loadImage ("snow.jpg"); //Dimensions: 533 Width, 470 Height
   pic6 = loadImage ("offline.jpg"); //Dimensions: 564 Width, 493 Height
+  pic7 = loadImage ("newspaper.jpg"); //Dimensions: 564 Width, 480 Height
   //
   image1X = width*1/3;
   image1Y = height*1/3;

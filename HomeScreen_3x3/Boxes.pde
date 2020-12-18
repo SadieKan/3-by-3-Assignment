@@ -58,17 +58,26 @@ void box4() {
 
 void box7() {
   if (box7On == true) {
-  image(pic5, image5X, image5Y, imageWidth, imageHeight);
-  line(pt9X, pt9Y, pt10X, pt10Y);
-  tree();
-  button7();
+    image(pic5, image5X, image5Y, imageWidth, imageHeight);
+    line(pt9X, pt9Y, pt10X, pt10Y);
+    tree();
+    button7();
   }
 }
 
 void box3() {
+
   if (box3On == true) {
-    image(pic6, image6X, image6Y, imageWidth, imageHeight);
-    line(pt3X, pt3Y, pt7X, pt7Y);
+    if (picOn == true) {
+      image(pic7, image6X, image6Y, imageWidth, imageHeight);
+      line(pt3X, pt3Y, pt7X, pt7Y);
+      button8();
+    }
+    if (picOn == false) {
+      image(pic6, image6X, image6Y, imageWidth, imageHeight);
+      line(pt3X, pt3Y, pt7X, pt7Y);
+      button8();
+    }
   }
 }
 

@@ -153,7 +153,7 @@ void button6() {
 
 void button7() {
   rect(button7X, button7Y, button7Width, button7Height);
-  if ( mouseX>=button7X && mouseX<=button7X+button7Width && mouseY>=button7Y && mouseY<=button7Y+button7Height) {
+  if (mouseX>=button7X && mouseX<=button7X+button7Width && mouseY>=button7Y && mouseY<=button7Y+button7Height) {
     fill(black);
     rect(button7X, button7Y, button7Width, button7Height);
     fill(white);
@@ -165,6 +165,24 @@ void button7() {
     stroke(black);
     fill(#2a443c);
     button7Text();
+  }
+  fill(white);
+}
+
+void button8() {
+  rect(button8X, button8Y, button8Width, button8Height);
+  if (mouseX>=button8X && mouseX<=button8X+button8Width && mouseY>=button8Y && mouseY<=button8Y+button8Height) {
+    fill(black);
+    rect(button8X, button8Y, button8Width, button8Height);
+    fill(white);
+    button8Text();
+  } else {
+    stroke(#645c5d);
+    fill(#dfdbde); 
+    rect(button8X, button8Y, button8Width, button8Height);
+    stroke(black);
+    fill(#645c5d);
+    button8Text();
   }
   fill(white);
 }
