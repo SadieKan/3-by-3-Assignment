@@ -86,6 +86,15 @@ void button5Text() {
 }
 
 
+void button6Text() {
+  textAlign (CENTER, CENTER);
+  textFont(buttonFont, 25);
+  text(clickMe, button6X, button6Y, button6Width, button6Height);
+  textFont(buttonFont);
+  fill(white);
+}
+
+
 //Box 2
 void quitText() {
   textAlign (CENTER, CENTER);

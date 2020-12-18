@@ -168,3 +168,21 @@ void restartButton() {
   }
   fill(white);
 }
+
+void button6() {
+  rect(button6X, button6Y, button6Width, button6Height);
+  if ( mouseX>=button6X && mouseX<=button6X+button6Width && mouseY>=button6Y && mouseY<=button6Y+button6Height) {
+    fill(black);
+    rect(button6X, button6Y, button6Width, button6Height);
+    fill(white);
+    button6Text();
+  } else {
+    stroke(#493243);
+    fill(#b39fa7);
+    rect(button6X, button6Y, button6Width, button6Height);
+    stroke(black);
+    fill(#493243);
+    button6Text();
+  }
+  fill(white);
+}
