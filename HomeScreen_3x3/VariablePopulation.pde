@@ -62,5 +62,14 @@ void variablePopulation() {
   faceY = rectHeight*5/2;
   faceDiameter = rectHeight*4/5;
   //
-  
+  leftEyeX = rectWidth*12/5;
+  leftEyeY = rectHeight*12/5;
+  rightEyeX = rectWidth*13/5;
+  rightEyeY = leftEyeY;
+  eyeDiameter = rectHeight/7;
+  //
+  mouthX1 = leftEyeX;
+  mouthY1 = rectHeight*21/8;
+  mouthX2 = rightEyeX;
+  mouthY2 = mouthY1;
 }

@@ -16,7 +16,7 @@ void button1() {
 
 void button2() {
   rect(button2X, button2Y, button2Width, button2Height);
-  if ( mouseX>=button2X && mouseX<=button2X+button1Width && mouseY>=button2Y && mouseY<=button2Y+button1Height) {
+  if ( mouseX>=button2X && mouseX<=button2X+button2Width && mouseY>=button2Y && mouseY<=button2Y+button2Height) {
     fill(black);
     rect(button2X, button2Y, button2Width, button2Height);
     fill(white);
@@ -34,7 +34,25 @@ void button2() {
 
 void button3() {
   rect(button3X, button3Y, button3Width, button3Height);
-  if ( mouseX>=button3X && mouseX<=button3X+button1Width && mouseY>=button3Y && mouseY<=button3Y+button1Height) {
+  if ( mouseX>=button3X && mouseX<=button3X+button3Width && mouseY>=button3Y && mouseY<=button3Y+button3Height) {
+    fill(black);
+    rect(button3X, button3Y, button3Width, button3Height);
+    fill(white);
+    button3Text();
+  } else {
+    stroke(#6a5f50);
+    fill(#a59787);
+    rect(button3X, button3Y, button3Width, button3Height);
+    stroke(black);
+    fill(#6a5f50);
+    button3Text();
+  }
+  fill(white);
+}
+
+void button4() {
+  rect(button4X, button4Y, button4Width, button4Height);
+  if ( mouseX>=button4X && mouseX<=button4X+button4Width && mouseY>=button4Y && mouseY<=button4Y+button4Height) {
     fill(black);
     rect(button3X, button3Y, button3Width, button3Height);
     fill(white);

@@ -32,4 +32,5 @@ void box1() {
 
 void box9() {
   face();
+  button4();
 }
