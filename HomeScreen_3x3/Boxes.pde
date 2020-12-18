@@ -4,6 +4,7 @@ String box8Text= "The buttons below change the colour of the eyes in the box to 
 String clickMe= "Click Me!";
 String start= "Start";
 String quit= "Quit";
+String restart= "Restart";
 
 void box5() {
   image(pic1, image1X, image1Y, imageWidth, imageHeight);

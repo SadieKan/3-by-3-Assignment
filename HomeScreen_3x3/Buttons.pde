@@ -152,4 +152,19 @@ void quitButton() {
 }
 
 void restartButton() {
+  rect(restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight);
+  if ( mouseX>=restartButtonX && mouseX<=restartButtonX+restartButtonWidth && mouseY>=restartButtonY && mouseY<=restartButtonY+restartButtonHeight) {
+    fill(black);
+    rect(restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight);
+    fill(white);
+    restartText();
+  } else {
+    stroke(white);
+    fill(white);
+    rect(restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight);
+    stroke(black);
+    fill(black);
+    restartText();
+  }
+  fill(white);
 }

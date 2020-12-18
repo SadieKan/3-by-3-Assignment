@@ -51,6 +51,10 @@ void variablePopulation() {
   quitButtonY = rectHeight*1/9;
   quitButtonWidth = rectWidth*1/2;
   quitButtonHeight = rectHeight*1/3;
+  restartButtonX = rectWidth*5/4;
+  restartButtonY = rectHeight*5/9;
+  restartButtonWidth = rectWidth*1/2;
+  restartButtonHeight = rectHeight*1/3;
   //
   //
   //Pics
