@@ -65,11 +65,10 @@ void box7() {
 }
 
 void box3() {
-  //if (box3On == true) {
+  if (box3On == true) {
     image(pic6, image6X, image6Y, imageWidth, imageHeight);
     line(pt3X, pt3Y, pt7X, pt7Y);
-    //button8();
-  //}
+  }
 }
 
 void box2() {

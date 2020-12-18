@@ -76,6 +76,7 @@ void variablePopulation() {
   pic3 = loadImage ("book.jpg"); //Dimensions: 564 Width, 564 Height
   pic4 = loadImage ("cake.jpg"); //Dimensions: 564 Width, 564 Height
   pic5 = loadImage ("snow.jpg"); //Dimensions: 533 Width, 470 Height
+  pic6 = loadImage ("offline.jpg"); //Dimensions: 564 Width, 493 Height
   //
   image1X = width*1/3;
   image1Y = height*1/3;
@@ -87,6 +88,8 @@ void variablePopulation() {
   image4Y = height*1/3;
   image5X = width*0;
   image5Y = height*2/3;
+  image6X = width*2/3;
+  image6Y = height*0;
   //
   //
   //Text

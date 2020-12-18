@@ -7,8 +7,8 @@ float cButtonWidth, cButtonHeight, cButton1X, cButton1Y, cButton2X, cButton2Y, c
 float button7X, button7Y, button7Width, button7Height;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight, restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight;
 float text6X, text6Y, text6Width, text6Height, text1Y, text1Height, text8Y;
-float image1X, image1Y, image2X, image2Y, image3X, image3Y, image4X, image4Y, image5X, image5Y, imageWidth, imageHeight;
-PImage pic1, pic2, pic3, pic4, pic5;
+float image1X, image1Y, image2X, image2Y, image3X, image3Y, image4X, image4Y, image5X, image5Y, image6X, image6Y, imageWidth, imageHeight;
+PImage pic1, pic2, pic3, pic4, pic5, pic6;
 float faceX, faceY, faceDiameter, leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter, mouthX1, mouthY1, mouthX2, mouthY2;
 float trunkX1, trunkY1, trunkX2, trunkY2, trunkThick;
 float leaf1X1, leaf1Y1, leaf1X2, leaf1Y2, leaf1X3, leaf1Y3, leaf2X1, leaf2Y1, leaf2X2, leaf2Y2, leaf2X3, leaf2Y3, leaf3X1, leaf3Y1, leaf3X2, leaf3Y2, leaf3X3, leaf3Y3;
@@ -33,6 +33,7 @@ void draw() {
   box2();
   box4();
   box7();
+  box3();
   points(); //circles at the corners of each box
 }
 
