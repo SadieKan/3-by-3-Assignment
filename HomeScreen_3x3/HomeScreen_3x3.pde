@@ -9,7 +9,7 @@ PImage pic1, pic2, pic3;
 float faceX, faceY, faceDiameter, leftEyeX, leftEyeY, rightEyeX, rightEyeY, eyeDiameter, mouthX1, mouthY1, mouthX2, mouthY2;
 PFont boxFont, buttonFont;
 color white = #FFFFFF, black = #000000, purple = #C0B2CC, darkPurple = #786a87, gray = #ACABAD;
-Boolean box6On=false, box1On=false;
+Boolean box6On=false, box1On=false, box9On=false;
 
 void setup() {
   fullScreen(); //landscape
@@ -24,10 +24,12 @@ void draw() {
   box6();
   box1();
   box9();
+  box8();
   points(); //circles at the corners of each box
 }
 
 void mousePressed() {
   if (mouseX>=button1X && mouseX<=button1X+button1Width && mouseY>=button1Y && mouseY<=button1Y+button1Height) box6On = true;
   if (mouseX>=button2X && mouseX<=button2X+button2Width && mouseY>=button2Y && mouseY<=button2Y+button2Height) box1On = true;
+  if ( mouseX>=button3X && mouseX<=button3X+button3Width && mouseY>=button3Y && mouseY<=button3Y+button3Height) box9On = true;
 }

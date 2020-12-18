@@ -56,3 +56,24 @@ void button3Text() {
   textFont(buttonFont);
   fill(white);
 }
+
+
+//Box 9
+void button4Text() {
+  textAlign (CENTER, CENTER);
+  textFont(buttonFont, 20);
+  text(clickMe, button4X, button4Y, button4Width, button4Height);
+  textFont(buttonFont);
+  fill(white);
+}
+
+
+//Box 8
+void box8Text() {
+  textAlign (CENTER, TOP);
+  textFont(boxFont, 15);
+  fill(darkPurple);
+  text(box8Text, pt10X, pt10Y, rectWidth, rectHeight);
+  fill(white);
+  textFont(boxFont);
+}

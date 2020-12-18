@@ -30,6 +30,11 @@ void variablePopulation() {
   button3Y = rectHeight*5/16; 
   button3Width = rectWidth*1/4;
   button3Height = rectHeight*1/5;
+  //Button 4 (for box 9)
+  button4X = rectWidth*14/5; 
+  button4Y = rectHeight*21/8; 
+  button4Width = rectWidth*1/6;
+  button4Height = rectHeight*1/4;
   //
   //
   //Pics

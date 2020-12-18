@@ -1,5 +1,6 @@
 String box6Text= "“I am so clever that sometimes I don't understand a single word of what I am saying.” -Oscar Wilde";
 String box1Text= "“I'm not stupid. I'm just too lazy to show how smart I am” -Oreiki Houtarou, Hyouka";
+String box8Text= "The buttons below change the colour of the eyes in the box to the right:";
 String clickMe= "Click Me!";
 String Start= "Start";
 
@@ -31,6 +32,14 @@ void box1() {
 }
 
 void box9() {
-  face();
-  button4();
+  if (box9On == true) {
+    face();
+    button4();
+  }
+}
+
+void box8() {
+  box8Text();
+  //colourButtons();
+  //button5();
 }

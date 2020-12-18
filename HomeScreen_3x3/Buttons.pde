@@ -54,16 +54,35 @@ void button4() {
   rect(button4X, button4Y, button4Width, button4Height);
   if ( mouseX>=button4X && mouseX<=button4X+button4Width && mouseY>=button4Y && mouseY<=button4Y+button4Height) {
     fill(black);
-    rect(button3X, button3Y, button3Width, button3Height);
+    rect(button4X, button4Y, button4Width, button4Height);
     fill(white);
-    button3Text();
+    button4Text();
   } else {
-    stroke(#6a5f50);
-    fill(#a59787);
-    rect(button3X, button3Y, button3Width, button3Height);
+    stroke(darkPurple);
+    fill(darkPurple);
+    rect(button4X, button4Y, button4Width, button4Height);
     stroke(black);
-    fill(#6a5f50);
-    button3Text();
+    fill(white);
+    button4Text();
   }
   fill(white);
 }
+/*
+void colourButtons() {
+  rect(button4X, button4Y, button4Width, button4Height);
+  if ( mouseX>=button4X && mouseX<=button4X+button4Width && mouseY>=button4Y && mouseY<=button4Y+button4Height) {
+    fill(black);
+    rect(button4X, button4Y, button4Width, button4Height);
+    fill(white);
+    button4Text();
+  } else {
+    stroke(darkPurple);
+    fill(darkPurple);
+    rect(button4X, button4Y, button4Width, button4Height);
+    stroke(black);
+    fill(white);
+    button4Text();
+  }
+  fill(white);
+}
+*/
