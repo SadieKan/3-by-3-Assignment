@@ -2,7 +2,8 @@ String box6Text= "“I am so clever that sometimes I don't understand a single w
 String box1Text= "“I'm not stupid. I'm just too lazy to show how smart I am” -Oreiki Houtarou, Hyouka";
 String box8Text= "The buttons below change the colour of the eyes in the box to the right:";
 String clickMe= "Click Me!";
-String Start= "Start";
+String start= "Start";
+String quit= "Quit";
 
 void box5() {
   image(pic1, image1X, image1Y, imageWidth, imageHeight);
@@ -48,4 +49,5 @@ void box8() {
 
 void box2() {
   quitButton();
+  restartButton();
 }

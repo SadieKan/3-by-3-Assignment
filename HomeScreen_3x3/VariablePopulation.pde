@@ -46,6 +46,11 @@ void variablePopulation() {
   cButtonHeight = rectHeight*1/5;
   button5X = cButton2X;
   button5Y = cButton3Y;
+  //Quit Button and Restart Button (for box 2)
+  quitButtonX = rectWidth*5/4;
+  quitButtonY = rectHeight*1/9;
+  quitButtonWidth = rectWidth*1/2;
+  quitButtonHeight = rectHeight*1/3;
   //
   //
   //Pics
