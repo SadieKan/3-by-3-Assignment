@@ -67,22 +67,68 @@ void button4() {
   }
   fill(white);
 }
-/*
+
 void colourButtons() {
-  rect(button4X, button4Y, button4Width, button4Height);
-  if ( mouseX>=button4X && mouseX<=button4X+button4Width && mouseY>=button4Y && mouseY<=button4Y+button4Height) {
-    fill(black);
-    rect(button4X, button4Y, button4Width, button4Height);
+  rect(cButton1X, cButton1Y, cButtonWidth, cButtonHeight);
+  if ( mouseX>=cButton1X && mouseX<=cButton1X+cButtonWidth && mouseY>=cButton1Y && mouseY<=cButton1Y+cButtonHeight) {
+    stroke(#98C8F0);
+    fill(#98C8F0);
+    rect(cButton1X, cButton1Y, cButtonWidth, cButtonHeight);
     fill(white);
-    button4Text();
+    stroke(black);
   } else {
-    stroke(darkPurple);
-    fill(darkPurple);
-    rect(button4X, button4Y, button4Width, button4Height);
+    stroke(#B6D9F7);
+    fill(#B6D9F7);
+    rect(cButton1X, cButton1Y, cButtonWidth, cButtonHeight);
     stroke(black);
     fill(white);
-    button4Text();
+  }
+  fill(white);
+  //
+  rect(cButton2X, cButton2Y, cButtonWidth, cButtonHeight);
+  if ( mouseX>=cButton2X && mouseX<=cButton2X+cButtonWidth && mouseY>=cButton2Y && mouseY<=cButton2Y+cButtonHeight) {
+    stroke(#7CD37C);
+    fill(#7CD37C);
+    rect(cButton2X, cButton2Y, cButtonWidth, cButtonHeight);
+    fill(white);
+  } else {
+    stroke(#B2E5B3);
+    fill(#B2E5B3);
+    rect(cButton2X, cButton2Y, cButtonWidth, cButtonHeight);
+    stroke(black);
+    fill(white);
+  }
+  fill(white);
+  //
+  rect(cButton3X, cButton3Y, cButtonWidth, cButtonHeight);
+  if ( mouseX>=cButton3X && mouseX<=cButton3X+cButtonWidth && mouseY>=cButton3Y && mouseY<=cButton3Y+cButtonHeight) {
+    stroke(#FAB1D9);
+    fill(#FAB1D9);
+    rect(cButton3X, cButton3Y, cButtonWidth, cButtonHeight);
+    fill(white);
+  } else {
+    stroke(#FAD7EA);
+    fill(#FAD7EA);
+    rect(cButton3X, cButton3Y, cButtonWidth, cButtonHeight);
+    stroke(black);
+    fill(white);
   }
   fill(white);
 }
-*/
+void button5() {
+  rect(button5X, button5Y, cButtonWidth, cButtonHeight);
+  if ( mouseX>=button5X && mouseX<=button5X+cButtonWidth && mouseY>=button5Y && mouseY<=button5Y+cButtonHeight) {
+    fill(black);
+    rect(button5X, button5Y, cButtonWidth, cButtonHeight);
+    fill(white);
+    button5Text();
+  } else {
+    stroke(darkPurple);
+    fill(darkPurple);
+    rect(button5X, button5Y, cButtonWidth, cButtonHeight);
+    stroke(black);
+    fill(white);
+    button5Text();
+  }
+  fill(white);
+}

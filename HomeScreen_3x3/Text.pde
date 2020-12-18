@@ -71,9 +71,16 @@ void button4Text() {
 //Box 8
 void box8Text() {
   textAlign (CENTER, TOP);
-  textFont(boxFont, 15);
+  textFont(boxFont, 17);
   fill(darkPurple);
-  text(box8Text, pt10X, pt10Y, rectWidth, rectHeight);
+  text(box8Text, pt10X, text8Y, rectWidth, rectHeight);
   fill(white);
   textFont(boxFont);
+}
+void button5Text() {
+  textAlign (CENTER, CENTER);
+  textFont(buttonFont, 25);
+  text(clickMe, button5X, button5Y, cButtonWidth, cButtonHeight);
+  textFont(buttonFont);
+  fill(white);
 }

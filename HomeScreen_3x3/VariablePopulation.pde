@@ -35,6 +35,17 @@ void variablePopulation() {
   button4Y = rectHeight*21/8; 
   button4Width = rectWidth*1/6;
   button4Height = rectHeight*1/4;
+  //Button 5 + Colour Buttons (for box 8)
+  cButton1X = rectWidth*10/9; 
+  cButton1Y = rectHeight*18/8; 
+  cButton2X = rectWidth*14/9; 
+  cButton2Y = cButton1Y; 
+  cButton3X = cButton1X;
+  cButton3Y = rectHeight*21/8;
+  cButtonWidth = rectWidth*1/3;
+  cButtonHeight = rectHeight*1/5;
+  button5X = cButton2X;
+  button5Y = cButton3Y;
   //
   //
   //Pics
@@ -60,6 +71,7 @@ void variablePopulation() {
   text6Height = rectHeight;
   text1Y = rectHeight*2/3;
   text1Height = rectHeight*1/3;
+  text8Y = rectHeight*31/15;
   //
   //
   //Face
