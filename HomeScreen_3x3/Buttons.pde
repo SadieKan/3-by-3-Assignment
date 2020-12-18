@@ -132,3 +132,6 @@ void button5() {
   }
   fill(white);
 }
+
+void quitButton() {
+}

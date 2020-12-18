@@ -32,14 +32,20 @@ void box1() {
 }
 
 void box9() {
-  //if (box9On == true) {
+  if (box9On == true) {
     face();
     button4();
-  //}
+  }
 }
 
 void box8() {
-  box8Text();
-  colourButtons();
-  button5();
+  if (box8On == true) {
+    box8Text();
+    colourButtons();
+    button5();
+  }
+}
+
+void box2() {
+  quitButton();
 }
