@@ -19,3 +19,17 @@ void face() {
   ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
   fill(white);
 }
+
+void tree() {
+  //Trunk
+  strokeWeight(10);
+  strokeCap(SQUARE);
+  line(trunkX1, trunkY1, trunkX2, trunkY2);
+  strokeWeight (1);
+  //Leaves
+  fill (#2a443c);
+  triangle(leaf1X1, leaf1Y1, leaf1X2, leaf1Y2, leaf1X3, leaf1Y3);
+  triangle(leaf2X1, leaf2Y1, leaf2X2, leaf2Y2, leaf2X3, leaf2Y3);
+  triangle(leaf3X1, leaf3Y1, leaf3X2, leaf3Y2, leaf3X3, leaf3Y3);
+  fill (white);
+}

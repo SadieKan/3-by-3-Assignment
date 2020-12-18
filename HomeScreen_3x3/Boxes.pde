@@ -56,6 +56,11 @@ void box4() {
   }
 }
 
+void box7() {
+  image(pic5, image5X, image5Y, imageWidth, imageHeight);
+  tree();
+}
+
 void box2() {
   quitButton();
   restartButton();
