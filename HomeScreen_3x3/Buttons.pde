@@ -133,6 +133,43 @@ void button5() {
   fill(white);
 }
 
+void button6() {
+  rect(button6X, button6Y, button6Width, button6Height);
+  if ( mouseX>=button6X && mouseX<=button6X+button6Width && mouseY>=button6Y && mouseY<=button6Y+button6Height) {
+    fill(black);
+    rect(button6X, button6Y, button6Width, button6Height);
+    fill(white);
+    button6Text();
+  } else {
+    stroke(#493243);
+    fill(#b39fa7);
+    rect(button6X, button6Y, button6Width, button6Height);
+    stroke(black);
+    fill(#493243);
+    button6Text();
+  }
+  fill(white);
+}
+
+void button7() {
+  rect(button7X, button7Y, button7Width, button7Height);
+  if ( mouseX>=button7X && mouseX<=button7X+button7Width && mouseY>=button7Y && mouseY<=button7Y+button7Height) {
+    fill(black);
+    rect(button7X, button7Y, button7Width, button7Height);
+    fill(white);
+    button7Text();
+  } else {
+    stroke(#2a443c);
+    fill(#667973);
+    rect(button7X, button7Y, button7Width, button7Height);
+    stroke(black);
+    fill(#2a443c);
+    button7Text();
+  }
+  fill(white);
+}
+
+
 void quitButton() {
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
   if ( mouseX>=quitButtonX && mouseX<=quitButtonX+quitButtonWidth && mouseY>=quitButtonY && mouseY<=quitButtonY+quitButtonHeight) {
@@ -150,7 +187,6 @@ void quitButton() {
   }
   fill(white);
 }
-
 void restartButton() {
   rect(restartButtonX, restartButtonY, restartButtonWidth, restartButtonHeight);
   if ( mouseX>=restartButtonX && mouseX<=restartButtonX+restartButtonWidth && mouseY>=restartButtonY && mouseY<=restartButtonY+restartButtonHeight) {
@@ -165,24 +201,6 @@ void restartButton() {
     stroke(black);
     fill(black);
     restartText();
-  }
-  fill(white);
-}
-
-void button6() {
-  rect(button6X, button6Y, button6Width, button6Height);
-  if ( mouseX>=button6X && mouseX<=button6X+button6Width && mouseY>=button6Y && mouseY<=button6Y+button6Height) {
-    fill(black);
-    rect(button6X, button6Y, button6Width, button6Height);
-    fill(white);
-    button6Text();
-  } else {
-    stroke(#493243);
-    fill(#b39fa7);
-    rect(button6X, button6Y, button6Width, button6Height);
-    stroke(black);
-    fill(#493243);
-    button6Text();
   }
   fill(white);
 }

@@ -94,6 +94,13 @@ void button6Text() {
   fill(white);
 }
 
+void button7Text() {
+  textAlign (CENTER, CENTER);
+  textFont(buttonFont, 25);
+  text(clickMe, button7X, button7Y, button7Width, button7Height);
+  textFont(buttonFont);
+  fill(white);
+}
 
 //Box 2
 void quitText() {
