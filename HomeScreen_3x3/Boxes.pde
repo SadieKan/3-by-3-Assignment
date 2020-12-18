@@ -59,6 +59,7 @@ void box4() {
 void box7() {
   if (box7On == true) {
   image(pic5, image5X, image5Y, imageWidth, imageHeight);
+  line(pt9X, pt9Y, pt10X, pt10Y);
   tree();
   button7();
   }
