@@ -61,6 +61,7 @@ void mousePressed() {
     box1On = false;
     box9On = false;
     box8On = false;
+    box4On = false;
     blueOn = false;
     greenOn = false;
     pinkOn = false;
